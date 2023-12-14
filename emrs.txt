@@ -1,0 +1,116 @@
+1. basic of computer organization -> computer ( hardware and software )
+types of software -> os , compiler , application
+os -> manager -> handle tasks, memory manage, facilitate user to use computer
+boolean logic -> way of computer to make decision 'true' or 'false' 
+number system -> computer use binary number system
+encoding schemas -> schemas for helping computer to understand characters like letters and 
+numbers. ASCII , UTF etc
+
+2. computational thinking and programming 
+problem solving -> breaking down a big problem into smaller, manageable parts (algorithm)
+python programming :-
+data types -> containers for information (number, text, more)
+operators -> tools for performing actions (+,-,*,/,%,=)
+expressions -> combination of values and operators (2+3)
+statements -> complete line of code (most ends with semicolon)
+type conversion -> changes data type (it can be implicit or explicit)
+flow of control -> how program decides what to do next (if condition)
+string, lists, tuples and dictionaries -> ways to organize and store data
+strings (text), lists (sequences), tuples (unchangeable lists), dictionaries (like object in some languages - labeled list)
+python modules -> pre-written code you can use (math, sqrt etc also called methods and libraries) 
+
+3. society law and ethics
+digital footprints -> information you create and share (data traces)
+netiquette and communication etiquettes -> like good manners on the internet (avoiding typing in all caps is an example of netiquette)
+safety accessing websites -> its like navigating through a city safely. avoid malware and use secure https (avoiding suspicious pop-up ads)
+e-waste management -> properly disposing of electronic waste is like recycling. recycling old computers instead of throwing them in the trash
+indian information technology act (IT Act) -> rule book for the digital world. it sets guidelines for online activities.
+technology and society -> understanding how technology impacts people, considering things like gender and disability. (ensuring websites are accessible to people with disabilities)
+data protection and cyber crime -> protecting data is like safeguarding valuable information (cyber crime includes illegal activities online) - use strong password 
+cyber safety -> not sharing sensitive information with strangers online
+
+4. computer networks
+
+evolution of networking -> ARPANET the first internet networking
+data communication terminologies -> SMTP
+transmission media and network devices -> media is like roads for data, and devices are like traffic signals managing the flow (fiber-optic cables[media], routers[devices])
+network topologies and types -> blueprint for network layouts (LAN, MAN, WAN)
+
+//////
+
+Artificial Intelligence (AI): AI refers to machines or computers mimicking human intelligence, learning from experience, and performing tasks that typically require human intelligence. (siri, alexa, chatgpt)
+
+Machine Learning (ML): ML is a subset of AI where systems learn and improve from experience without being explicitly programmed, making predictions or decisions. (self learning system) ML is used in recommendation systems like Netflix suggesting movies based on your watching history
+
+Natural Language Processing (NLP): NLP involves machines understanding, interpreting, and generating human language, enabling interaction between computers and humans using natural language. (chatgpt)
+
+Immersive Experience (AR, VR): Augmented Reality (AR) overlays digital information on the real world (like parking system, camera filters) - Virtual Reality (VR) creates a completely immersive digital environment. VR headsets like Oculus Rift offer immersive gaming experiences.
+
+Robotics: Robotics involves designing, building, and operating robots to perform tasks autonomously or with human assistance. Robots are used in manufacturing for tasks like assembly. In news, robots are employed in healthcare for surgery assistance.
+
+Big Data and its Characteristics: Big Data refers to extremely large and complex datasets that traditional data processing methods struggle to handle. Characteristics include volume, velocity, variety, veracity, and value. Analyzing social media data to understand customer sentiments is a big data application. (Sentiments Analyzing is part of stock trading)
+
+Internet of Things (IoT): IoT connects everyday devices to the internet, allowing them to send and receive data, enhancing efficiency and convenience. Smart thermostats adjusting temperature remotely are an IoT application.
+
+Sensors: Sensors are devices that detect and measure physical properties, converting them into signals that can be interpreted or displayed. sensors like accelerometers enable screen rotation. sensors are used in smart cities for traffic monitoring.
+
+Smart Cities: Smart cities use technology to improve efficiency, sustainability, and quality of life for their residents. Singapore integrates technology for efficient traffic management and waste disposal. 
+
+Cloud Computing and Cloud Services (SaaS, IaaS, PaaS): Cloud Computing involves accessing and storing data and programs over the internet instead of a computer's hard drive. Services include Software as a Service (SaaS), Infrastructure as a Service (IaaS), and Platform as a Service (PaaS). Google Drive is a SaaS, AWS is an IaaS offering, and Heroku is a PaaS.
+
+Grid Computing: Grid Computing connects and utilizes the resources of multiple computers to solve complex problems. SETI@home uses grid computing to analyze radio signals from space. grid computing aids scientific research in areas like climate modeling.
+
+Blockchain Technology: Blockchain is a decentralized and distributed ledger technology that securely records transactions across multiple computers. Cryptocurrencies like Bitcoin use blockchain for secure and transparent transactions. 
+
+// pandas, numpy, matplotlib 
+// series, data frames, data visualization
+
+// creation of series
+from ndarray
+
+    import pandas as pd
+    import numpy as np
+
+    data = np.array([1, 2, 3, 4, 5])
+    series_from_ndarray = pd.Series(data)
+
+from dictionary
+
+    data = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+    series_from_dict = pd.Series(data)
+
+from scalar value
+
+    scalar_value = 5
+    series_from_scalar = pd.Series(scalar_value, index=['a', 'b', 'c', 'd', 'e'])
+
+Mathematical Operations:
+You can perform mathematical operations on Series, similar to NumPy arrays.
+
+    series_1 = pd.Series([1, 2, 3])
+    series_2 = pd.Series([4, 5, 6])
+
+    result = series_1 + series_2
+
+Head and Tail Functions:
+
+# Display the first n elements
+    print(series.head(3))
+
+# Display the last n elements
+    print(series.tail(3))
+
+
+Selection, Indexing, and Slicing:
+
+# Selecting by label
+    print(series['a'])
+
+# Slicing by labels
+    print(series['a':'c'])
+
+# Selecting by position
+    print(series[0])
+
+# Slicing by position
+    print(series[0:3])
